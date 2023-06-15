@@ -24,11 +24,12 @@ export default function Home() {
           position="center"
           noWrap
           sx={{
+            marginTop: 15,
             marginLeft: "auto",
             marginRight: "auto",
           }}
         >
-          <ActionIcon component="a" href="https://twitter.com/0xgoonie" size={75} variant="transparent">
+          <ActionIcon component="a" href="https://twitter.com/rugdudenft" size={75} variant="transparent">
             <Image src="./twitter.jpg" />
           </ActionIcon>
           <ActionIcon component="a" size={75} variant="transparent">
