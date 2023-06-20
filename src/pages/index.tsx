@@ -16,8 +16,6 @@ export default function Home() {
           className={styles.logoImg}
           src="./neonmain.gif"
           alt="RugDude Logo"
-          width="20%"
-          height="20%"
         />
         <Group
           spacing="sm"
@@ -27,6 +25,9 @@ export default function Home() {
             marginTop: 5,
             marginLeft: "auto",
             marginRight: "auto",
+            "@media (max-width: 400px)": {
+              marginTop: 0,
+            },
           }}
         >
           <ActionIcon
