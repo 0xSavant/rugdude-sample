@@ -6,48 +6,25 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>rugg'd: an experience by rugdude</title>
+        <title>rugg'd: an nft experience by rugdude</title>
         <meta name="description" content="web3 is about to get rugg'd." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <Center>
-          <Stack align="center">
-            <Image src="./logo.gif" alt="RugDude Logo" />
-            <Title
-              order={1}
-              size={52}
-              color="green"
-              sx={{
-                fontFamily: "Consolas"
-              }}
-            >
-              rugg'd
-            </Title>
-            <Title
-              order={2}
-              size={32}
-              align="center"
-              color="green"
-              sx={{
-                fontFamily: "Consolas",
-                "@media (max-width: 400px)": {
-                  alignSelf: "center",
-                  fontSize: 24,
-                },
-              }}
-            >
-              web3 is about to get rugg'd.
-            </Title>
-          </Stack>
-        </Center>
+        <img
+          className={styles.logoImg}
+          src="./neonmain.gif"
+          alt="RugDude Logo"
+          width="20%"
+          height="20%"
+        />
         <Group
           spacing="sm"
           position="center"
           noWrap
           sx={{
-            marginTop: 15,
+            marginTop: 5,
             marginLeft: "auto",
             marginRight: "auto",
           }}
@@ -63,7 +40,7 @@ export default function Home() {
               },
             }}
           >
-            <Image src="./twitter.jpg" />
+            <Image src="./twitterneon.gif" />
           </ActionIcon>
           <ActionIcon
             component="a"
@@ -76,7 +53,7 @@ export default function Home() {
               },
             }}
           >
-            <Image src="./discord.jpg" />
+            <Image src="./discordneon.gif" />
           </ActionIcon>
         </Group>
       </main>
