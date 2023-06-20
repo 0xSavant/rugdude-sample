@@ -13,6 +13,15 @@
   width: 20%;
   height: 20%;
 }
+@media (max-width: 400px) {
+  .logoImg {
+    margin-right: auto;
+    margin-left: auto;
+    width: 72%;
+    height: 70%;
+  }
+}
+
 @media (max-width: 700px) {
   .logoImg {
     margin-right: auto;
