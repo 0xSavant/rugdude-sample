@@ -8,11 +8,13 @@
 }
 
 .logoWrapper {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logoImg {
+  display: block;
   margin-right: auto;
   margin-left: auto;
   width: 20%;
