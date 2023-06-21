@@ -7,6 +7,11 @@
   min-height: 100vh;
 }
 
+.logoWrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logoImg {
   margin-right: auto;
   margin-left: auto;
