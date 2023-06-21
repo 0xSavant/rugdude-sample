@@ -12,11 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <img
-          className={styles.logoImg}
-          src="./neonmain.gif"
-          alt="RugDude Logo"
-        />
+        <div>
+          <img
+            className={styles.logoImg}
+            src="./neonmain.gif"
+            alt="RugDude Logo"
+          />
+        </div>
         <Group
           spacing="sm"
           position="center"
